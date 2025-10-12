@@ -3,7 +3,7 @@ using System;
 /*
  * CREATIVITY AND EXCEED REQUIREMENTS:
  
- * Problem Addressed: Lack of motivation to keep journaling consistently
+ * What I added: Lack of motivation to keep journaling consistently
  * 
  * Solution Implemented: Statistics feature (Option 5) that shows:
  * - Total number of entries
