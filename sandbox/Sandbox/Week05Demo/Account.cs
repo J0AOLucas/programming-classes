@@ -1,6 +1,6 @@
 using System;
 
-public Account
+public class Account
 {
   private double _balance = 0;
 
@@ -16,7 +16,7 @@ public Account
 
   public void WithDraw(double amount)
   {
-    if (amount > 0 && amount > balance)
+    if (amount > 0 && amount > _balance)
     {
       _balance -= amount;
     } else {
