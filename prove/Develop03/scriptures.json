@@ -1,0 +1,95 @@
+{
+  "scriptures": [
+    {
+      "book": "Proverbs",
+      "chapter": 3,
+      "verse": 5,
+      "endVerse": 0,
+      "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways acknowledge Him, and He shall direct your paths."
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verse": 13,
+      "endVerse": 0,
+      "text": "I can do all things through Christ who strengthens me."
+    },
+    {
+      "book": "Psalm",
+      "chapter": 23,
+      "verse": 1,
+      "endVerse": 3,
+      "text": "The Lord is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake."
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verse": 7,
+      "endVerse": 0,
+      "text": "Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened to you."
+    },
+    {
+      "book": "Romans",
+      "chapter": 8,
+      "verse": 28,
+      "endVerse": 0,
+      "text": "And we know that in all things God works for the good of those who love Him."
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verse": 10,
+      "endVerse": 0,
+      "text": "Fear not, for I am with you; be not dismayed, for I am your God."
+    },
+    {
+      "book": "John",
+      "chapter": 14,
+      "verse": 27,
+      "endVerse": 0,
+      "text": "Peace I leave with you; my peace I give to you."
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 29,
+      "verse": 11,
+      "endVerse": 0,
+      "text": "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."
+    },
+    {
+      "book": "2 Nephi",
+      "chapter": 2,
+      "verse": 25,
+      "endVerse": 0,
+      "text": "Adam fell that men might be; and men are, that they might have joy."
+    },
+    {
+      "book": "Alma",
+      "chapter": 37,
+      "verse": 6,
+      "endVerse": 0,
+      "text": "By small and simple things are great things brought to pass."
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verse": 3,
+      "endVerse": 5,
+      "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted. Blessed are the meek: for they shall inherit the earth."
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 13,
+      "verse": 4,
+      "endVerse": 7,
+      "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; rejoiceth not in iniquity, but rejoiceth in the truth; beareth all things, believeth all things, hopeth all things, endureth all things."
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verse": 22,
+      "endVerse": 23,
+      "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law."
+    }
+  ]
+}
