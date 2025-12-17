@@ -33,4 +33,11 @@ public abstract class Event
     }
 
     protected abstract string GetEventType();
+
+    public int DaysUntil(DateTime? now = null)
+    {
+        DateTime reference = now ?? DateTime.Now;
+        double days = (_dateTime - reference).TotalDays;
+        return (int)Math.Max(0, Math.Ceiling(days));
+    }
 }

@@ -30,13 +30,20 @@ public abstract class Activity
         return distance <= 0 ? 0 : _minutes / distance;
     }
 
+    public virtual double GetCalories()
+    {
+        return 0;
+    }
+
     public virtual string GetSummary()
     {
         double distance = GetDistance();
         double speed = GetSpeed();
         double pace = GetPace();
+        double calories = GetCalories();
+        string caloriesText = calories > 0 ? $", Calories ~ {calories:0}" : string.Empty;
 
-        return $"{_date:dd MMM yyyy} {GetTypeName()} ({_minutes} min) - Distance {distance:F1} miles, Speed {speed:F1} mph, Pace: {pace:F2} min per mile";
+        return $"{_date:dd MMM yyyy} {GetTypeName()} ({_minutes} min) - Distance {distance:F1} miles, Speed {speed:F1} mph, Pace: {pace:F2} min per mile{caloriesText}";
     }
 
     protected abstract string GetTypeName();

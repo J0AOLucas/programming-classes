@@ -63,13 +63,34 @@ class Program
 
             
         }
+
+        AnnounceLongestVideo(_videos);
     }
 
     public static void ShowAllVideos(List<Video> videos)
     {
         foreach(Video video in videos)
         {
-            Console.WriteLine(video._title);
+            Console.WriteLine(video.GetSummaryLine());
         }
+    }
+
+    public static void AnnounceLongestVideo(List<Video> videos)
+    {
+        if (videos == null || videos.Count == 0)
+        {
+            return;
+        }
+
+        Video longest = videos[0];
+        foreach (Video video in videos)
+        {
+            if (video._lenght > longest._lenght)
+            {
+                longest = video;
+            }
+        }
+
+        Console.WriteLine($"\nFun fact: longest video is \"{longest._title}\" with duration {longest.GetDurationFormatted()}.");
     }
 }

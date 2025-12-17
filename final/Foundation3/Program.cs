@@ -44,6 +44,12 @@ class Program
             Console.WriteLine("----- Short Description -----");
             Console.WriteLine(eventItem.ShortDescription());
             Console.WriteLine();
+
+            int daysUntil = eventItem.DaysUntil();
+            Console.WriteLine(daysUntil > 0
+                ? $"Days until event: {daysUntil}"
+                : "Event already occurred.");
+            Console.WriteLine();
         }
     }
 }

@@ -15,6 +15,11 @@ public class Running : Activity
         return _distanceMiles;
     }
 
+  public override double GetCalories()
+  {
+    return GetDistance() * 110; // simple estimate per mile
+  }
+
     protected override string GetTypeName()
     {
         return "Running";

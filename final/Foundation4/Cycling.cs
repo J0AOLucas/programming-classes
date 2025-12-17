@@ -25,6 +25,11 @@ public class Cycling : Activity
         return _speedMph <= 0 ? 0 : 60 / _speedMph;
     }
 
+  public override double GetCalories()
+  {
+    return GetDistance() * 50; // moderate cycling estimate
+  }
+
     protected override string GetTypeName()
     {
         return "Cycling";

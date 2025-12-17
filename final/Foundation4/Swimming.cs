@@ -15,6 +15,11 @@ public class Swimming : Activity
         return _laps * 50 / 1000.0 * 0.62; // miles
     }
 
+  public override double GetCalories()
+  {
+    return GetDistance() * 130; // lap swimming estimate
+  }
+
     protected override string GetTypeName()
     {
         return "Swimming";
