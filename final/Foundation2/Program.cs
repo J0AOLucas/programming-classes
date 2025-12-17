@@ -37,6 +37,9 @@ class Program
         Console.WriteLine("Shipping Label:");
         Console.WriteLine(order.GetShippingLabel());
         Console.WriteLine();
+        Console.WriteLine($"Items: {order.GetItemCount()}");
+        Console.WriteLine(order.GetShippingSummary());
+        Console.WriteLine();
         Console.WriteLine($"Total Cost: ${order.GetTotalCost():0.00}");
         Console.WriteLine();
     }

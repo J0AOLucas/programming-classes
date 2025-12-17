@@ -23,8 +23,7 @@ public class Order
       subtotal += product.GetTotalCost();
     }
 
-    double shipping = _customer.LivesInUSA() ? 5 : 35;
-    return subtotal + shipping;
+    return subtotal + GetShippingCost();
   }
 
   public string GetPackingLabel()
@@ -40,5 +39,30 @@ public class Order
   public string GetShippingLabel()
   {
     return _customer.GetShippingLabel();
+  }
+
+  public double GetShippingCost()
+  {
+    return _customer.LivesInUSA() ? 5 : 35;
+  }
+
+  public bool IsDomestic()
+  {
+    return _customer.LivesInUSA();
+  }
+
+  public int GetItemCount()
+  {
+    int total = 0;
+    foreach (Product product in _products)
+    {
+      total += product.GetQuantity();
+    }
+    return total;
+  }
+
+  public string GetShippingSummary()
+  {
+    return IsDomestic() ? "Domestic shipping ($5)" : "International shipping ($35)";
   }
 }
